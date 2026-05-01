@@ -7,7 +7,7 @@ namespace CPUFramework
     public class SQLUtility
     {
         public static string ConnectionString = "";
-
+        //note
         public static DataTable GetDataTable(string sqlstatement)
         {
             Debug.Print(sqlstatement);
